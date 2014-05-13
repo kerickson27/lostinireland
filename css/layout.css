@@ -1,0 +1,135 @@
+.container {
+	margin:2% auto 5% auto;
+	width: 90%;
+	max-width: 900px;
+}
+
+body {
+	text-align:center;
+}
+
+#banner {
+	margin-bottom:2%;
+	width:100%;
+}
+
+/* ------ Navigation ------ */
+
+nav {
+	text-align:center;
+	max-width:600px;
+	width:100%;
+	margin: 0% auto 0% auto;	
+}
+
+nav ul {
+	list-style:none; 
+		
+}
+
+nav li {
+	display: inline-block;
+	padding:2px;
+}
+
+a {
+	text-decoration:none;
+}
+
+
+
+/* ------ Flexslider ------ */ 
+
+.flexslider {
+   max-width: 800px;
+   margin:5% auto 5% auto;
+   text-align:center;
+   box-shadow: none;
+}
+
+.flex-direction-nav {
+	display:none;
+}
+
+
+
+h1 {
+	background-color:#E6CFFF;
+	text-align:left;
+	margin: 3% auto 0% auto;
+	width:100%;
+	padding: 1%;
+	max-width:600px;	
+}
+
+
+p {
+	width:100%;
+	max-width:600px;
+	text-align:center;
+	margin:auto;
+}
+
+.quotation {
+	width:90%
+	max-width:600px;
+	margin-top:3%;
+}
+
+.image {
+	text-align:center;
+	width:100%;
+	max-width: 600px;
+	margin:3% auto 3% auto;
+}
+
+
+.recommendations {
+	background-color:#E6CFFF;
+	padding:2%;
+	width:100%;
+	max-width:600px;
+	margin:3% auto 3% auto;
+}
+
+/* ------------ mobile layout -------------- */
+@media only screen and (max-width:625px) {
+/* Style adjustments for small screens */
+
+
+nav ul{
+	text-align:left;
+	margin:0%;
+	padding:0%;
+
+}
+
+nav > ul > li {
+	font-size:12px;
+	padding:0%;
+	margin:0%;
+	
+}
+
+h1 {
+	font-size:20px;
+}
+
+h2 {
+	font-size:18px;
+}
+
+p {
+	font-size:14px;
+}
+
+.quotation {
+	font-size:14px;
+}
+
+
+
+
+
+
+
